@@ -1,0 +1,15 @@
+a:hover{
+    background-color: gray;
+    border-radius: 6px;
+  }
+
+@media (min-width: 1100px) {
+    #item-nav{
+      margin-left: 150px;
+    }
+}
+@media (max-width: 1100px) {
+    #item-nav{
+      margin-left: 100px;
+    }
+}

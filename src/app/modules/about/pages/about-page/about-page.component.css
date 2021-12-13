@@ -1,0 +1,26 @@
+img{
+    height: 200px;
+}
+li{
+    list-style: none;
+}
+
+#body-about{
+    background-repeat: no-repeat;
+}
+#container{
+    background-color: var(--color-1);
+    border-radius: 6px;
+    margin-right: 20px;
+}
+#about-footer{
+    position: static;
+    bottom: 0px;
+    background-color: var(--color-2);
+    width: 90%;
+}
+@media (max-width: 980px) { 
+    #container{
+        margin-right: 0px;
+    }
+ }

@@ -1,0 +1,33 @@
+
+li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#body{
+    background-color: var(--color-1);
+}
+#sec-1{
+    background-color: var(--color-2);
+}
+#img-computer{
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    #img-movil{
+        display: none;
+    }
+
+    
+}
+@media (max-width: 800px) {
+    #img-computer{
+        display: none;
+    }
+    
+}
+
+
+
+

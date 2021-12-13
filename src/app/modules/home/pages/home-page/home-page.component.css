@@ -1,0 +1,12 @@
+#img-movil{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    #img-computer{
+        display: none;
+    }
+    #img-movil{
+        display: block;
+    }
+  }
