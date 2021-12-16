@@ -3,6 +3,10 @@ li{
     display: inline-block;
     margin-right: 50px;
 }
+ul{
+    padding-left: 75px;
+    margin-left: 25px;
+}
 
 #body{
     background-color: var(--color-1);
@@ -12,6 +16,9 @@ li{
 }
 #img-computer{
     width: 100%;
+}
+#svg-computer{
+    color: var(--color-3);
 }
 
 @media (min-width: 800px) {
@@ -24,6 +31,18 @@ li{
 @media (max-width: 800px) {
     #img-computer{
         display: none;
+    }
+    ul{
+        padding-left: 60px;
+        margin-left: 10px;
+    }
+
+    
+}
+@media (max-width: 900px) {
+
+    #sec-1{
+        background-color: var(--color-4);
     }
     
 }

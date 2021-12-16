@@ -1,3 +1,6 @@
+div{
+    background-color: var(--color-2);
+}
 #img-movil{
     display: none;
 }
@@ -8,5 +11,8 @@
     }
     #img-movil{
         display: block;
+    }
+    div{
+        background-color: var(--color-4);
     }
   }

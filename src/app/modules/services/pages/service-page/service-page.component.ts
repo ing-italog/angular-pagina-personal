@@ -13,18 +13,35 @@ export class ServicePageComponent implements OnInit {
   infoText4: String = 'Desarrollo web'
   infoText5: String = 'Creo una presencia en la web que atrae usuarios y convierte visitantes en clientes leales. Organiza tus objetivos que yo me encargo de hacerlos realidad'
   infoText6: String = 'Tecnologías'
+  textQuote: String = 'Consigue una cotización'
+  textWhatsapp: String = 'WhatsApp'
+  textEmail: String = 'Correo Electrónico'
 
-  infItems: Array<String>=[
-    'Definir metas y necesidades', 
-    'Identificar prioridades',
-    'Definir producto mínimo viable',
-    'Crear hoja de ruta del proyecto'
-]
+  infItems: Array<any>=[
+    {
+      imgLogo: './assets/images/goals.png',
+      info: 'Definir objetivos y necesidades'
+    },
+    {
+      imgLogo: './assets/images/priorities.png',
+      info: 'Identificar prioridades'
+    },
+    {
+      imgLogo: './assets/images/mvp.png',
+      info: 'Definir producto mínimo viable'
+    },
+    {
+      imgLogo: './assets/images/roadmap.png',
+      info: 'Crear hoja de ruta'
+    }
+  ]
+  
 
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
+    
   }
 
 }

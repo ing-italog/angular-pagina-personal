@@ -1,9 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
     --color-1: rgb(217, 217, 217);
-    --color-2: black;/*rgb(1, 22, 37)*/
+    --color-2: rgb(1, 22, 37);
+    --color-3: rgb(196, 60, 60);
+    --color-4:black;
 }
 
 body{
     background-color: var(--color-2);
+}
+@media (max-width: 900px) {
+   
+    body{
+        background-color: var(--color-4);
+    }
+    
 }

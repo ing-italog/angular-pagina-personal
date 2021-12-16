@@ -1,29 +1,22 @@
 <app-side-bar></app-side-bar>
 <div id="body-about">
     <div class="container">
-        <h5 class="text-danger mt-4">CONOCEME</h5>
+        <h5 class="text-danger mt-4">{{title}}</h5>
+
         <!--Row 1-->
         <div class="row">
-            <div id="container" class="col-lg-4 mt-3 border pt-4">
-                <div class="text-center mb-3 ">
-                    <img src="./assets/images/italo.jpg" class="img-thumbnail">
-                </div>
-                <h4>ITALO GUEVARA PROGRAMADOR WEB</h4>
-                <br>
-                <p> {{ textInfo1 }}</p>
+
+            <!--Container 1-->
+            <div id="container" class="col-lg-7 mt-3 border text-center py-4">
+                <img [src]="photo" class="img-thumbnail mb-3">
+                <h4 class="text-center mb-3">{{name}}</h4>
+                <p class="float-start">{{textInfo1}}😁 &#9996;</p>
             </div>
 
-            <div id="container" class="col-lg-4 mt-3 text-center border py-5">
-                <h5 class="pt-5">{{ textInfo2 }}</h5>
-                <ul class="list-group list-group-flush" *ngFor="let item of  skillTool.defaultOption">
-                    <li>{{ item }}</li>
-                </ul>
-            </div>
-
+            <!--Container 2-->
             <div id="container" class="col text-center mt-3 border border-secondary py-5">
-                <h5>{{ textInfo3 }}</h5>
+                <h5>{{textInfo2}}</h5>
                 <br />
-                <p th:text="#{pag-about.text5}"></p>
                 <a href="mailto:alberto.villamil.1997@gmail.com"> <input class="btn btn-danger mb-4" type="button"
                         value="Correo Eléctronico" />
                 </a>
@@ -32,30 +25,28 @@
                     href="https://wa.me/573138456818?text=Hola%20Italo%20Guevara%20me%20gustaria%20recibir%20una%20asesoria">
                     <input class="btn btn-danger mb-4" type="button" value="(+57) 313 845 6818" />
                 </a> <br />
-                <p>{{ textDownload }}</p>
+                <p>{{cvDownload}}</p>
                 <a href="./assets/other/CV_Developer_web_Italo_Guevara.pdf" target="_blank"> <input
                         class="btn btn-danger" type="button" value="Descargar CV" />
                 </a>
 
-
             </div>
         </div>
-
-
     </div>
+
     <!--Row 2-->
-    <div class="container">
+    <div  class="container">
         <div id="about-footer" class="row py-5">
             <div class="col-sm text-light">
-                <p>Ubicación: Bogotá - Colombia</p>
+                <p>{{footerLocation}}</p>
 
             </div>
             <div class="col-sm text-light">
-                <p>Desarrollado por Italo guevara.</p>
+                <p>{{footerDesined}}</p>
 
             </div>
             <div class="col-sm text-light">
-                <p>Powered By <a target="_blank" href="https://angular.io/">Angular</a> & <a target="_blank"
+                <p>{{footerPower}} <a target="_blank" href="https://angular.io/">Angular</a> & <a target="_blank"
                         href="https://getbootstrap.com/">BootStrap</a></p>
 
             </div>

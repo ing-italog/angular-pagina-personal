@@ -1,70 +1,20 @@
 <app-side-bar></app-side-bar>
 <div class="container">
-    <div class="container-fluid text-center">
+    <h4 class="text-danger">{{title}}</h4>
 
-        <div class="row">
-            <div class="col my-3">
-                <div class="card" style="width: 18rem;"><a>
-                    <img src="./assets/images/spotify.jpg"  style="width: 18rem; height: 10rem;" class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5>Spotify-Clon</h5>
-                        <p class="card-text">{{ textInf1 }}</p>
+    <div class="row">
+        <div class="col my-3">
+            <ul *ngFor="let proyect of proyects">
+                <li>
+                    <div class="card" style="width: 18rem;"><a>
+                            <img [src]="proyect.imgProyect" class="card-img-top"></a>
+                        <div class="card-body">
+                            <h5>{{ proyect.title }}</h5>
+                            <p class="card-text">{{ textInf1 }}</p>
+                        </div>
                     </div>
-                </div>
-            </div>    
-            
-            <div class="col my-3">
-                <div class="card" style="width: 18rem;"><a>
-                    <img src="./assets/images/clima.jfif"  style="width: 18rem; height: 10rem;" class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5>Clima</h5>
-                        <p class="card-text">{{ textInf1 }}</p>
-                    </div>
-                </div>
-            </div>  
-
-            <div class="col my-3">
-                <div class="card" style="width: 18rem;"><a>
-                    <img src="./assets/images/foro.png"  style="width: 18rem; height: 10rem;" class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5>Foro</h5>
-                        <p class="card-text">{{ textInf1 }}</p>
-                    </div>
-                </div>
-            </div>  
-
-            <div class="col my-3">
-                <div class="card" style="width: 18rem;"><a>
-                    <img src="./assets/images/ecommerce.jfif"  style="width: 18rem; height: 10rem;" class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5>Ecommerce</h5>
-                        <p class="card-text">{{ textInf1 }}</p>
-                    </div>
-                </div>
-            </div>  
-
-            <div class="col my-3">
-                <div class="card" style="width: 18rem;"><a>
-                    <img src="./assets/images/dashboard.jfif"  style="width: 18rem; height: 10rem;" class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5>Administrador de Ventas</h5>
-                        <p class="card-text">{{ textInf1 }}</p>
-                    </div>
-                </div>
-            </div>  
-
-            <div class="col my-3">
-                <div class="card" style="width: 18rem;"><a>
-                    <img src="./assets/images/pensnado.png"  style="width: 18rem; height: 10rem;" class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5>Pensando...</h5>
-                        <p class="card-text">{{ texInfo2 }}</p>
-                    </div>
-                </div>
-            </div>  
-            
+                </li>
+            </ul>
         </div>
-    </div>
-</div>
 
-
+    </div></div>

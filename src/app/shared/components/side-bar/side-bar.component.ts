@@ -7,25 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBarComponent implements OnInit {
 
-  mainMenu: {
-    defaultOption: Array<any>,
-
-  } = { defaultOption:[] }
+  mainMenu: Array<any> = []
+  imgLogoComputer: any = './assets/images/logo.png'
+  imgLogoMovil: any = './assets/images/logoMovil.png'
 
   constructor() { }
 
   ngOnInit(): void {
-    this.mainMenu.defaultOption = [
+    this.mainMenu = [
       {
-        name:'Servicios',
+        name: 'Servicios',
         router: ['/', 'services']
       },
       {
-        name:'Proyectos',
+        name: 'Proyectos',
         router: ['/', 'works']
       },
       {
-        name:'Conoceme',
+        name: 'Conoceme',
         router: ['/', 'about']
       }
     ]

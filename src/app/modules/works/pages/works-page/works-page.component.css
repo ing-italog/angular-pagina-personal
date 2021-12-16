@@ -1,0 +1,22 @@
+img{
+    width: 18rem;
+     height: 10rem;
+}
+ul{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
+
+#body{
+    padding-left: 0px;
+}
+
+@media (max-width: 800px) {
+   
+    ul{
+        display: inline-block;
+        margin: 10px;
+    }
+    
+}

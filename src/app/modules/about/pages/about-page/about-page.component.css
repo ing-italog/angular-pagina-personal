@@ -19,8 +19,19 @@ li{
     background-color: var(--color-2);
     width: 90%;
 }
+#text-email{
+    padding-bottom: 70px;
+}
 @media (max-width: 980px) { 
     #container{
         margin-right: 0px;
+    }
+    #text-email{
+        padding-bottom: 0px;
+    }
+ }
+ @media (max-width: 900px) { 
+    #about-footer{
+        background-color: var(--color-4);
     }
  }
