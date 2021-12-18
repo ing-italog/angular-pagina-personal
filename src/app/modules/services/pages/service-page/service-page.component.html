@@ -1,4 +1,3 @@
-<app-side-bar></app-side-bar>
 <div id="body">
     <img id="img-movil" class="img-fluid" src="./assets/images/services.jpg">
     
@@ -7,20 +6,32 @@
         <section class="">
             <div class="px-5 ">
 
-                <h5 class="py-5 text-danger" id="text.services">SERVICIOS</h5>
-                <H1 class="text-light fw-bold">{{ infoText1 }}</H1>
+                <h5 class="py-5 text-danger" id="text.services">{{"services.title" | translate}}</h5>
+                <H1 class="text-light fw-bold">{{"services.infoText1" | translate}}</H1>
                 <br>
-                <p class="text-light">{{ infoText2 }}</p>
+                <p class="text-light">{{"services.infoText2" | translate}}</p>
             </div>
         </section>
         <img id="img-computer" class="img-fluid" src="./assets/images/services-quit.jpg">
         <section class="my-5 container py-5">
             <div class="px-4 ">
-                <h4 class="text-light">{{ infoText3 }}</h4>
+                <h4 class="text-light">{{"services.infoText3" | translate}}</h4>
                 <ul>
-                    <li class="mt-5" *ngFor="let item of infItems">
-                        <img width="100" [src]="item.imgLogo">
-                        <p class="text-light">{{ item.info }}</p>
+                    <li class="mt-5">
+                        <img width="100" src="./assets/images/goals.png">
+                        <p class="text-light">{{"services.infoServ1" | translate}}</p>
+                    </li>
+                    <li class="mt-5">
+                        <img width="100" src="./assets/images/priorities.png">
+                        <p class="text-light">{{"services.infoServ2" | translate}}</p>
+                    </li>
+                    <li class="mt-5">
+                        <img width="100" src="./assets/images/mvp.png">
+                        <p class="text-light">{{"services.infoServ3" | translate}}</p>
+                    </li>
+                    <li class="mt-5">
+                        <img width="100" src="./assets/images/roadmap.png">
+                        <p class="text-light">{{"services.infoServ4" | translate}}</p>
                     </li>
                 </ul>
             </div>
@@ -30,15 +41,15 @@
     <!--section-->
     <div class="container">
         <section class="container text-center py-4">
-            <h5>{{ textQuote }}</h5>
+            <h5>{{"services.textQuote" | translate}}</h5>
             <br>
             <a href="https://wa.me/573138456818?text=Hola%20Italo%20Guevara%20me%20gustaria%20recibir%20una%20asesoria"><button
-                    class="btn btn-danger">{{ textWhatsapp }}</button>                
+                    class="btn btn-danger">{{textWhatsapp}}</button>                
             </a>
             <br>
             <br>
             <a class="" href="mailto:alberto.villamil.1997@gmail.com"> <button class="btn btn-danger mb-4" type="button"
-                    value="Correo Eléctronico" >{{ textEmail }}</button>
+                    value="Correo Eléctronico" >{{"services.textEmail" | translate}}</button>
             </a>
         </section>
     </div>
@@ -53,12 +64,12 @@
                         d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
                 </svg>
 
-                <h4 class="text-light">{{ infoText4 }}</h4>
+                <h4 class="text-light">{{"services.infoText4" | translate}}</h4>
                 <br>
-                <p class="text-light">{{ infoText5 }}</p>
+                <p class="text-light">{{"services.infoText5" | translate}}</p>
                 <br>
             </div>
-            <h5 class="text-light text-center">{{ infoText6 }}</h5>
+            <h5 class="text-light text-center">{{"services.infoText6" | translate}}</h5>
             <br>
             <div class="row">
                 <ul class="col-lg-12 text-light">

@@ -5,6 +5,10 @@ nav{
   display: none;      
 }
 
+#btn-lang{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
 
 a:hover{
     background-color: gray;
@@ -21,6 +25,9 @@ a:hover{
     #item-nav{
       margin-left: 100px;
     }
+    #btn-lang{
+      margin-right: 0px;
+    }
 }
 @media (max-width: 900px) {
   nav{
@@ -31,5 +38,9 @@ a:hover{
   }
   #logoMovil{
     display: inline;      
+  }
+  #btn-lang{
+    margin-right: -110px;
+    right: 0px;
   }
 }

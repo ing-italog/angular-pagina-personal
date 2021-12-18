@@ -1,0 +1,41 @@
+{
+    "nav-bar":{
+        "services":"Servicios",
+        "works":"Proyectos",
+        "about":"Conoceme",
+        "languaje":"En"
+    },
+    "home":{
+        "title": "ITALO GUEVARA - PROGRAMADOR WEB - BOGOTA, COL",
+        "info": "Full Stack - SpringBoot & Angular"
+    },
+    "services":{
+        "title":"SERVICIOS",
+        "infoText1": "Puedo apoyar tu proyecto de diferentes formas. ¿Qué tal si comenzamos con una entrevista tomando un café?",
+        "infoText2": "Permiteme brindarte toda la asesoria en tu proyecto para asegurar tu presencia en la web",
+        "infoText3": "Proceso de evaluación",
+        "infoText4": "Desarrollo web",
+        "infoText5": "Creo una presencia en la web que atrae usuarios y convierte visitantes en clientes leales. Organiza tus objetivos que yo me encargo de hacerlos realidad",
+        "infoText6": "Tecnologías",
+        "textQuote": "Consigue una cotización",
+        "textEmail": "Correo Electrónico",
+        "infoServ1": "Definir objetivos y necesidades",
+        "infoServ2": "Identificar prioridades",
+        "infoServ3": "Definir producto mínimo viable",
+        "infoServ4": "Crear hoja de ruta"
+    },
+    "works":{
+        "title": "Proyectos",
+        "textInf1": "Disculpa, este sitio aun esta en construcción."
+
+    },
+    "about":{
+        "title":"CONOCEME",
+        "textInfo1": "Hola! Soy un entusiasta, apasionado por la tecnología, principalmente por el desarrollo web, me caracterizo por ser alguien organizado, con alto gusto por los nuevos retos, actualmente soy estudiante de la UniAgustiana en Bogotá, si deseas saber mas de mi tomemonos un café y conversemos.",
+        "textInfo2": "¿Tienes un proyecto?",
+        "cvDownload": "Descarga mi Curriculum",
+        "downLoad": "Descargar",
+        "footerLocation": "Ubicación: Bogotá - Colombia",
+        "footerDesined": "Desarrollado por Italo guevara."
+    }
+}

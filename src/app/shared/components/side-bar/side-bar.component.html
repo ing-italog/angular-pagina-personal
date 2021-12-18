@@ -2,24 +2,38 @@
   <div class="container-fluid">
 
     <!--Logo-->
-    <a class="navbar-brand text-light" href="">
+    <a [routerLink]="['/']" routerLinkActive="router-link-active"  class="navbar-brand text-light">
       <img id="logoComputer" [src]="imgLogoComputer" width="60" height="60">
       <img id="logoMovil" [src]="imgLogoMovil" width="60" height="60">
     </a>
+    <!--Btn Languaje-->
+    <button id="btn-lang" (click)="useLanguage(lang)" class="btn text-light rounded-circle">{{"nav-bar.languaje" |
+      translate}}</button>
+
     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!--Nav Items-->
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav float-end">
-        <li [routerLink]="item.router" routerLinkActive="router-link-active" class="nav-item"
-          *ngFor="let item of mainMenu">
-          <a id="item-nav" class="nav-link active text-light" aria-current="page">- {{ item.name }}</a>
+        <li class="nav-item">
+          <a [routerLink]="['/services']" routerLinkActive="router-link-active"  id="item-nav" class="nav-link active text-light" aria-current="page">-{{"nav-bar.services"
+            | translate}}</a>
         </li>
         <li class="nav-item">
-          <a id="item-nav" class="nav-link active text-light" aria-current="page" target="_blank" href="https://github.com/ing-italog?tab=repositories">-GitHub</a>
+          <a [routerLink]="['/works']" routerLinkActive="router-link-active"  id="item-nav" class="nav-link active text-light" aria-current="page">-{{"nav-bar.works" |
+            translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/about']" routerLinkActive="router-link-active"  id="item-nav" class="nav-link active text-light" aria-current="page">-{{"nav-bar.about" |
+            translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a id="item-nav" class="nav-link active text-light" aria-current="page" target="_blank"
+            href="https://github.com/ing-italog?tab=repositories">-GitHub</a>
         </li>
       </ul>
     </div>

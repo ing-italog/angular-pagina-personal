@@ -1,7 +1,6 @@
-<app-side-bar></app-side-bar>
 <div id="body-about">
     <div class="container">
-        <h5 class="text-danger mt-4">{{title}}</h5>
+        <h5 class="text-danger mt-4">{{"about.title" | translate}}</h5>
 
         <!--Row 1-->
         <div class="row">
@@ -10,25 +9,23 @@
             <div id="container" class="col-lg-7 mt-3 border text-center py-4">
                 <img [src]="photo" class="img-thumbnail mb-3">
                 <h4 class="text-center mb-3">{{name}}</h4>
-                <p class="float-start">{{textInfo1}}😁 &#9996;</p>
+                <p class="float-start">{{"about.textInfo1" | translate}}😁 &#9996;</p>
             </div>
 
             <!--Container 2-->
             <div id="container" class="col text-center mt-3 border border-secondary py-5">
-                <h5>{{textInfo2}}</h5>
+                <h5>{{"about.textInfo2" | translate}}</h5>
                 <br />
-                <a href="mailto:alberto.villamil.1997@gmail.com"> <input class="btn btn-danger mb-4" type="button"
-                        value="Correo Eléctronico" />
-                </a>
+                <button class="btn btn-danger mb-4">
+                <a href="mailto:alberto.villamil.1997@gmail.com"></a>{{"services.textEmail" | translate}}</button>
                 <p>WhatsApp</p>
                 <a
                     href="https://wa.me/573138456818?text=Hola%20Italo%20Guevara%20me%20gustaria%20recibir%20una%20asesoria">
                     <input class="btn btn-danger mb-4" type="button" value="(+57) 313 845 6818" />
                 </a> <br />
-                <p>{{cvDownload}}</p>
-                <a href="./assets/other/CV_Developer_web_Italo_Guevara.pdf" target="_blank"> <input
-                        class="btn btn-danger" type="button" value="Descargar CV" />
-                </a>
+                <p>{{"about.cvDownload" | translate}}</p>
+                <button class="btn btn-danger mb-4">
+                <a href="./assets/other/CV_Developer_web_Italo_Guevara.pdf" target="_blank"></a>{{"about.downLoad" | translate}}</button>
 
             </div>
         </div>
@@ -38,11 +35,11 @@
     <div  class="container">
         <div id="about-footer" class="row py-5">
             <div class="col-sm text-light">
-                <p>{{footerLocation}}</p>
+                <p>{{"about.footerLocation" | translate}}</p>
 
             </div>
             <div class="col-sm text-light">
-                <p>{{footerDesined}}</p>
+                <p>{{"about.footerDesined" | translate}}</p>
 
             </div>
             <div class="col-sm text-light">

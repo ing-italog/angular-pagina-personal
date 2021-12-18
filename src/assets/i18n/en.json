@@ -1,0 +1,41 @@
+{
+    "nav-bar":{
+        "services":"Services",
+        "works":"Works",
+        "about":"About",
+        "languaje":"Es"
+    },
+    "home":{
+        "title": "ITALO GUEVARA - WEB DEVELOPER - BOGOTA, COL",
+        "info": "Full Stack - SpringBoot & Angular"
+    },
+    "services":{
+        "title":"SERVICIOS",
+        "infoText1": "I can support your project in different ways. How about we start with an interview over coffee?",
+        "infoText2": "Allow me to provide you with all the advice on your project to ensure your presence on the web",
+        "infoText3": "Evaluation process",
+        "infoText4": "Web Developer",
+        "infoText5": "I create a web presence that attracts users and turns visitors into loyal customers. Organize your goals that I take care of making them come true",
+        "infoText6": "Technologies",
+        "textQuote": "Get a quote",
+        "textEmail": "Email Address",
+        "infoServ1": "Define targets and needs",
+        "infoServ2": "Identify priorities",
+        "infoServ3": "Define mininum viable product",
+        "infoServ4": "Create roadmap"
+    },
+    "works":{
+        "title": "WORKS",
+        "textInf1": "Sorry! This site is building"
+
+    },
+    "about":{
+        "title":"ABOUT",
+        "textInfo1": "Hey!  I'm enthusiast, passionate about technology, mainly about web development, I am characterized by being someone organized, with a high taste for new challenges, I am currently a student at UniAgustiana in Bogotá, if you want to know more about me, let's have a coffee and talk .",
+        "textInfo2": "Got a project?",
+        "cvDownload": "Download my Curriculum",
+        "downLoad": "DownLoad",
+        "footerLocation": "Location: Bogotá - Colombia",
+        "footerDesined": "Desined By Italo guevara."
+    }
+}

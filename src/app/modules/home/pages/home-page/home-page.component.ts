@@ -7,9 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  title: String = 'ITALO GUEVARA - PROGRAMADOR WEB - BOGOTA, COL';
-  inf: String = 'Full Stack - SpringBoot & Angular';
-
   imgComputer: any = './assets/images/home-computer.png '
   imgMovil: any = './assets/images/movil.png'
 
