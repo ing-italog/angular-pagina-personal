@@ -12,6 +12,7 @@ export class SideBarComponent implements OnInit{
   mainMenu: Array<any> = []
   imgLogoComputer: any = './assets/images/logo.png'
   imgLogoMovil: any = './assets/images/logoMovil.png'  
+  flat: any = './assets/images/flat-spain.png';
 
   public lang: string = 'es'
   
@@ -26,9 +27,11 @@ export class SideBarComponent implements OnInit{
     this.translate.use(languaje = this.lang);
 
     if (this.lang == 'es') {
-      this.lang = 'en'
+      this.lang = 'en';
+      this.flat = './assets/images/bandera_inglaterra.png';
     } else {
-      this.lang = 'es'
+      this.lang = 'es';
+      this.flat = './assets/images/flat-spain.png';
     }
   }
 

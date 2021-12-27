@@ -9,7 +9,7 @@ export class AboutPageComponent implements OnInit {
 
   photo: any = './assets/images/italo.jpg'
   name: String = 'ITALO GUEVARA PROGRAMADOR WEB'
-  footerPower: String = 'Powered By'
+  
 
   constructor() { }
 

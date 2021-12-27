@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 //Translate function
@@ -14,7 +15,8 @@ export function HttpLoaderFactory(http: HttpClient){
 
 @NgModule({
   declarations: [
-    SideBarComponent
+    SideBarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ export function HttpLoaderFactory(http: HttpClient){
     
   ],
   exports:[
-    SideBarComponent
+    SideBarComponent,
+    FooterComponent
   ]
     
   
